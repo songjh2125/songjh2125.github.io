@@ -2,18 +2,14 @@
 layout: default
 ---
 
-# Jihun Song
+## Research Interest
 
-- AI / Security / LLM
-- Soongsil University
 
-## Research Interests
-- LLM privacy & security
-- Inference risk, PII leakage
+## Experience
 
-## Projects
-- Project A — short description
-- Project B — short description
 
-## Links
-- GitHub: https://github.com/songjh2125
+## Education
+
+
+## Contact
+
