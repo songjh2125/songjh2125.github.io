@@ -1,0 +1,38 @@
+title: Jihun Song
+description: "Personal site for Jihun Song"
+
+url: "https://songjh2125.github.io"
+baseurl: ""
+
+repository: songjh2125/songjh2125.github.io
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+remote_theme: ankitsultana/researcher@gem
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: pretty
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+nav:
+  - name: "About"
+    link: "/"
+  - name: "CV"
+    link: "/cv.pdf"
+  - name: "Contact"
+    link: "/contact"
+
+footer: false
+
+# tracking_id: ""
