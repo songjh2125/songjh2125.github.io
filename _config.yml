@@ -33,7 +33,7 @@ nav:
   # - name: "Contact"
   #   link: "/contact"
 
-footer: true
+footer: false
 footer_text: "© 2026 Jihun Song"
 
 # tracking_id: ""
