@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;   // 텍스트 시작선과 수직 정렬 맞춤
   gap: 40px;
-  flex-direction: row-reverse;
 }
 
 .profile-text {
@@ -15,7 +14,7 @@
 
 .profile-image img {
   width: 180px;
-  height: 180px;
-  object-fit: cover;     // 눌림 방지
-  border-radius: 50%;    // 원형 유지
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
