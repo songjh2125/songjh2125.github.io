@@ -3,15 +3,18 @@
 @import "style";
 
 .profile {
-  overflow: hidden;
+  display: flex;
+  align-items: center;   // 텍스트 시작선과 수직 정렬 맞춤
+  gap: 40px;
 }
 
-.profile-picture {
-  float: right;
+.profile-text {
+  flex: 1;
+}
+
+.profile-image img {
   width: 180px;
   height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-left: 30px;
-  margin-bottom: 10px;
+  object-fit: cover;     // 눌림 방지
+  border-radius: 50%;    // 원형 유지
 }
