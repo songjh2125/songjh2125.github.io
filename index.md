@@ -24,7 +24,7 @@ layout: default
 
 
 ## Contact
-- **Email:** songjh2125@soongsil.ac.kr, songjh041207@gmail.com
+- **Email:** songjh041207@gmail.com
 - **GitHub:** [songjh2125](https://github.com/songjh2125)
 - **LinkedIn:** [Jihun Song](https://www.linkedin.com/in/jihun-song-981977378/)
 - **Google Scholar:** [Jihun Song](https://scholar.google.com/citations?hl=en&user=CVpq8LQAAAAJ)
