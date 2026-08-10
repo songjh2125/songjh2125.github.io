@@ -13,7 +13,7 @@ layout: default
 
 
 ## News
-For the latest news, please visit the [Natural Language Processing Lab Page](https://sites.google.com/view/ssu-nlp/home).
+For the latest news, please visit [this page](https://sites.google.com/view/ssu-nlp/home).
 
 
 ## Education
@@ -21,14 +21,14 @@ For the latest news, please visit the [Natural Language Processing Lab Page](htt
   *Soongsil University · Mar 2023 - Present*
 
 
-## Experience
+## Work Experiences
 - **Undergraduate Researcher, Natural Language Processing Lab**  
   *Soongsil University · Sep 2025 - Present*  
   Advisor: [Chanjun Park](https://parkchanjun.github.io/)
 
 
-## Contact
+## Links
 - **Email:** songjh041207@gmail.com
 - **GitHub:** [songjh2125](https://github.com/songjh2125)
-- **LinkedIn:** [Jihun Song](https://www.linkedin.com/in/jihun-song-981977378/)
+- **LinkedIn:** [Jihun Song](https://www.linkedin.com/in/sjihun/)
 - **Google Scholar:** [Jihun Song](https://scholar.google.com/citations?hl=en&user=CVpq8LQAAAAJ)
