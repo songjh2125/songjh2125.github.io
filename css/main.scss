@@ -3,17 +3,16 @@
 @import "style";
 
 .profile {
-  display: flex;
-  align-items: center;   // 텍스트 시작선과 수직 정렬 맞춤
-  gap: 24px;
+  display: flow-root;   // 안의 float을 감싼다
 }
 
-.profile-text {
-  flex: 1;
+.profile-image {
+  float: right;               // 글이 길어지면 사진 아래로 흘러 들어간다
+  margin: 16px 0 12px 24px;   // 소개글 첫 줄 윗변과 맞춤
 }
 
 .profile-image img {
-  width: 180px;
+  width: 155px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
