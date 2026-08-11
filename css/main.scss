@@ -18,3 +18,94 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+.social {
+  display: flex;
+  gap: 16px;
+  margin-top: 2px;
+  margin-bottom: 34px;
+}
+
+// 내용이 짧으면 푸터가 화면 맨 아래, 길면 본문 끝에 붙는다
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flow-root;   // wrapper가 flex라 clear:both가 안 먹으므로 직접 float 감쌈
+  box-sizing: border-box;
+  padding-bottom: 0;
+  min-height: 100px;    // float을 감싸며 커진 높이를 원래(패딩 100px)대로 되돌림
+}
+
+.wrapper > hr {
+  width: 100%;   // flex 항목이라 폭을 명시하지 않으면 0이 된다
+}
+
+// .container의 margin:auto는 flex 안에서 상하로는 여유 공간을 먹고,
+// 좌우로는 stretch를 막아 내용 크기로 줄여버린다. 둘 다 막는다.
+.wrapper > .container {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.wrapper > .site-footer {
+  margin-top: auto;
+}
+
+.site-footer hr {
+  margin-top: 40px;   // 본문과 구분선 사이 간격
+}
+
+.social a {
+  color: #4a4a4a;
+  line-height: 0;
+}
+
+.social a:hover {
+  color: #000;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 4px;
+  line-height: 0;   // 로고가 줄 높이를 늘리지 않도록
+}
+
+.logo img {
+  width: auto;      // 테마의 img { width: 100% } 무력화
+  height: 16px;
+  vertical-align: -0.2em;
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%) translateY(8px);
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 100;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.social svg {
+  height: 20px;
+  width: auto;   // 아이콘마다 viewBox 비율이 달라 가로는 자동
+  fill: currentColor;
+}

@@ -1,0 +1,22 @@
+<!-- Icons: Academicons (SIL OFL 1.1), Font Awesome Free (CC BY 4.0), Simple Icons (CC0) -->
+<div class="social">
+  <a href="mailto:songjh041207@gmail.com" class="copy-email" aria-label="Copy email address" title="songjh041207@gmail.com">{% include_relative image/gmail.svg %}</a>
+  <a href="https://scholar.google.com/citations?hl=en&amp;user=CVpq8LQAAAAJ" aria-label="Google Scholar">{% include_relative image/google-scholar.svg %}</a>
+  <a href="https://www.linkedin.com/in/sjihun/" aria-label="LinkedIn">{% include_relative image/linkedin.svg %}</a>
+  <a href="https://github.com/songjh2125" aria-label="GitHub">{% include_relative image/github.svg %}</a>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script>
+  document.querySelector('.copy-email').addEventListener('click', function (e) {
+    if (!navigator.clipboard) return;   // 클립보드를 못 쓰면 mailto 링크가 그대로 동작
+    e.preventDefault();
+    var link = this;
+    navigator.clipboard.writeText(this.href.replace('mailto:', '')).then(function () {
+      var t = document.getElementById('toast');
+      t.textContent = 'Email copied to clipboard';
+      t.classList.add('show');
+      clearTimeout(t.timer);
+      t.timer = setTimeout(function () { t.classList.remove('show'); }, 1800);
+    }).catch(function () { window.location.href = link.href; });
+  });
+</script>

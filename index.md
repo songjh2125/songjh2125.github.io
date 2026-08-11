@@ -10,6 +10,7 @@ layout: default
     <img src="jihunsong.jpg" alt="Profile picture">
   </div>
 </div>
+{% include social.html %}
 
 
 ## News
@@ -17,18 +18,16 @@ For the latest news, please visit the [Natural Language Processing Lab](https://
 
 
 ## Education
-- **B.S. in AI Software, Soongsil University**  
-  *Soongsil University · Mar 2023 - Present*  
-  Advisor: [Chanjun Park](https://parkchanjun.github.io/)
+- **Soongsil University** <a class="logo" href="https://ai.ssu.ac.kr/department/ai_software"><img src="image/soongsil.png" alt="Soongsil University"></a>  
+  B.S. in School of AI Software (advisor: [Chanjun Park](https://parkchanjun.github.io/))  
+  *Mar 2023 - Present*
 
 
 ## Work Experiences
-- **Researcher, Natural Language Processing Lab**  
-  *Soongsil University · Sep 2025 - Present*
+- **Natural Language Processing Lab, Soongsil University** <a class="logo" href="https://sites.google.com/view/ssu-nlp/home"><img src="image/soongsil_nlp.png" alt="Natural Language Processing Lab"></a>  
+  Researcher  
+  *Sep 2025 - Present*
 
 
-## Links
-- **Email:** [songjh2125@soongsil.ac.kr](mailto:songjh2125@soongsil.ac.kr)
-- **GitHub:** [songjh2125](https://github.com/songjh2125)
-- **LinkedIn:** [Jihun Song](https://www.linkedin.com/in/sjihun/)
-- **Google Scholar:** [Jihun Song](https://scholar.google.com/citations?hl=en&user=CVpq8LQAAAAJ)
+## Publications
+Please see my [CV](/Curriculum_Vitae_JihunSong.pdf) or [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=CVpq8LQAAAAJ) for the full list.
